@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE libros>
+<libros>
+  <libro id="quijote">
+    <titulo>El Quijote</titulo>
+    <autor nombre1='cervantes' nombre='cervantes'/>
+    <descripcion>Es el mejor libro de 
+        cervantes.</descripcion>
+  </libro>
+</libros>
+
+<!-- Esta mal formado ya que </libro termina con un corchete en vez de con (>)
+    Ademas En mejor tenia un -->

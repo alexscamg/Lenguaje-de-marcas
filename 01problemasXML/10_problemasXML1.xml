@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas>
+<deportistas>
+  <deportista>
+    <deporte nombre='Atletismo'/>
+    <nombre>Ana Peleteiro</nombre>
+  </deportista>
+  <deportista>
+    <deporte nombre='Natación' />
+    <nombre>Luis Domínguez </nombre>
+  </deportista>
+</deportistas>
+
+<!-- No aparece el DOCTYPE, aparece el cierre de deportistas ahi en medio de las etiquetas, 
+  Atletismo y natacion estan mal representado-->

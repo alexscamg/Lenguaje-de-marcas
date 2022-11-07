@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE arbol>
+<arbol cientifico='Acer monspessulanum' tipoVegetacion='caducifolio'>
+  <nombre> Arce de Montpellier, Arce menor </nombre>
+  <altura unidadMedida='Metros'>De 6 a 10</altura>
+  <estructura forma='Copa esferica'> Tronco principal recto con bifurcaciones. Ramaje colgante </estructura>
+  <color> Haz verde brillante, envés verde blanquecino </color>
+  <resistencia> Heladas fuertes (hasta -15ºC)</resistencia>
+</arbol>

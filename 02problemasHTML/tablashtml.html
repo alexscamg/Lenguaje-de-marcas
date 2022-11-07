@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table,
+    tr,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption>Titulo de mi primera tabla mortal</caption>
+        <!-- Para ponerle el titulo-->
+      <thead>
+    <tr>
+      <!-- La etiqueta tr es para cada fila -->
+      <th>Nombre</th> <!-- TH encabezado de la tabla -->
+      <th>Apellidos</th>
+      <th>Ciudad</th>
+      <th>Comunidad Autónoma</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alejandro</td>
+        <td>Sanchez Caballero</td>
+        <td>Sevilla</td> <!-- Para cada columna -->
+        <td rowspan="2">Andalucia</td>
+      </tr>
+      <tr>
+        <td>Perico</td>
+        <td>Periquito Periquita</td>
+        <td>Malaga</td> <!-- Para cada columna -->
+      </tr>
+      <tr>
+        <td>Anita</td>
+        <td>Dinamita</td>
+        <td>Madrid</td> <!-- Para cada columna -->
+        <td>Comunidad de Madrid</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="3">Listado provisional fecha(02/11/2022)</td>
+        <!-- colspan indicamos cuantas columnas vamos a expandir -->
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>

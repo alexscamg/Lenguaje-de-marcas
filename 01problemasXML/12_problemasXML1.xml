@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texto>
+<texto> <!-- Meter el autor y el titulo como atributo-->
+  <titulo autor='Casimiro Ynoteveo Pi'>El teatro y sus influencias</titulo>
+  <presentacion>Texto de relleno Texto de relleno Texto de relleno Texto de relleno 
+    Texto de relleno Texto de relleno Texto de relleno Texto de relleno Texto de relleno </presentacion>
+  <nudo>Texto de relleno Texto de relleno Texto de relleno Texto de relleno Texto de relleno Texto de relleno 
+    Texto de relleno Texto de relleno Texto de relleno Texto de relleno Texto de relleno Texto de relleno </nudo>
+  <desenlace>Texto de relleno Texto de relleno Texto de relleno Texto de relleno Texto de relleno Texto de relleno 
+    Texto de relleno Texto de relleno Texto de relleno Texto de relleno Texto de relleno Texto de relleno </desenlace>
+</texto>

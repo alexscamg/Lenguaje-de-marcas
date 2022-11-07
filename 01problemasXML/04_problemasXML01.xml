@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE equipos>
+<equipos>
+
+  <equipo nombre='Sevilla FC'>
+    <ciudad> Sevilla </ciudad>
+    <entrenador/>
+    <jugador posicion='delantero'>
+      <nombre_jugador> Alejandro Sanchez </nombre_jugador>
+      <nacionalidad pais='España'/>
+    </jugador>
+    <jugador posicion='portero'>
+      <nombre_jugador> Perico Periquito </nombre_jugador>
+      <nacionalidad pais='España'/>
+    </jugador>
+  </equipo>
+
+  <equipo nombre='Betis'>
+    <ciudad> Sevilla </ciudad>
+    <entrenador/>
+    <jugador posicion='medio'>
+      <nombre> Ana Sanchez </nombre>
+      <nacionalidad pais='España'/>
+    </jugador>
+    <jugador posicion='defensa'>
+      <nombre> Antonia Antoñita </nombre>
+      <nacionalidad pais='España'/>
+    </jugador>
+  </equipo>
+</equipos>

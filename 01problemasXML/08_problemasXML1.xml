@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE ciudades>
+
+<ciudades>
+
+  <ciudad nombre='Sevilla'>
+    <comunidad_autonoma> Andalucia </comunidad_autonoma>
+    <gentilicio> Sevillano/a </gentilicio>
+
+    <monumento estilo='renacentista'>
+      <nombre> Giralda </nombre>
+      <fecha siglo='XII'> 1184 </fecha>
+      <uso> fue utilizada en 1626 como elemento de 
+        estación a lo más alto de la torre, para rogar 
+        el cese de las lluvias que duraban ya cuarenta días. </uso>
+    </monumento>
+
+  </ciudad>
+
+  <ciudad nombre='Valencia'>
+    <comunidad_autonoma> Valenciana </comunidad_autonoma>
+    <gentilicio> valenciano/a </gentilicio>
+
+    <monumento estilo='futurista'>
+      <nombre> Ciudad de las artes y las ciencias </nombre>
+      <fecha siglo='XXI'> 1998 </fecha>
+      <uso> centro en el que se pudiese reunir el conocimiento con el 
+      entretenimiento. Un lugar para aprender, recorrer, y disfrutar. </uso>
+    </monumento>
+
+  </ciudad>
+  
+</ciudades>

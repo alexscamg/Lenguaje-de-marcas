@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE menu>
+<!-- <menu>
+  <Gofres1>
+    <nombre> Gofres Belgas </nombre>
+    <precio> 5.95€ </precio>
+    <descripcion> Dos de nuetros famosos Gofres Belgas con abundante sirope</descripcion>
+    <calorias> 650 </calorias>
+  </Gofres1>
+  <gofres2>
+    <nombre> Gofres Belgas con fresas </nombre>
+    <precio> 7.95€ </precio>
+    <descripcion> Ligeros gofres belgas cubiertos de fresa y nata montada </descripcion>
+    <calorias> 900 </calorias>
+  </gofres2>
+  <gofres3>
+    <nombre> Gofres Belgas con frutas del bosque </nombre>
+    <precio> 8.95€ </precio>
+    <descripcion> Ligeros gofres belgas cubiertos con frutas del bosque  y nata montada </descripcion>
+    <calorias> 900 </calorias>
+  </gofres3>
+  <tostada>
+    <nombre> Tostada Francesa </nombre>
+    <precio> 4.50 </precio>
+    <descripcion> Dos gruesas rebanadas de nuestro pan frances casero </descripcion>
+    <calorias> 600 </calorias>
+  </tostada>
+  <descasa>
+    <nombre> Desayuno de la casa </nombre>
+    <precio> 6.95€ </precio>
+    <descripcion> Dos huevos, bacon o salchicha, tostada y patatas fritas </descripcion>
+    <calorias> 950 </calorias>
+  </descasa>
+</menu>-->
+
+
+<menu>
+  <plato nombre='Gofres Belgas' calorias='650'>
+    <precio moneda='€'> 5.95 </precio>
+    <descripcion> Dos de nuetros famosos Gofres Belgas con abundante sirope </descripcion>
+  </plato>
+  <plato nombre='Gofres Belgas con fresas' calorias='900'>
+    <precio moneda='€'> 7.95€ </precio>
+    <descripcion> Ligeros gofres belgas cubiertos de fresa y nata montada </descripcion>
+  </plato>
+  <plato>
+    <nombre nombre='Gofres Belgas con frutas del bosque' calorias='900'></nombre>
+    <precio> 8.95€ </precio>
+    <descripcion> Ligeros gofres belgas cubiertos con frutas del bosque  y nata montada </descripcion>
+    <calorias> 900 </calorias>
+  </plato>
+  <plato nombre='Tostada Francesa' calorias='600'>
+    <precio moneda='€'> 4.50 </precio>
+    <descripcion> Dos gruesas rebanadas de nuestro pan frances casero </descripcion>
+  </plato>
+  <plato nombre='Desayuno de la casa' calorias='950'>
+    <precio moneda='€'> 6.95€ </precio>
+    <descripcion> Dos huevos, bacon o salchicha, tostada y patatas fritas </descripcion>
+  </plato>
+</menu>

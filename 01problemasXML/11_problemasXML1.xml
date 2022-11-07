@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mundiales-de-futbol>
+<mundiales-de-futbol>
+  <mundial>
+    <pais pais="España"/>
+    <año1982/>
+  </mundial>
+</mundiales-de-futbol>
+
+<!-- Falta el DOCTYPE -->
+<!-- Falta un atributo -->
+<!-- La etiqueta del año empieza por numero  -->

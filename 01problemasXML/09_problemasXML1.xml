@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas>
+
+<peliculas>
+
+  <pelicula director='Juan Diego Botto' genero='Drama'>
+    <nombre nombre='En los margenes'/>
+    <descripcion>Es una pelicula sobre la familia, el amor, y la solidaridad. 
+      La cuenta atras de tres personajes con tres historias entrelazadas que...
+    </descripcion>
+    <reparto>
+      <actor>Luis</actor>
+      <actriz>Penelope</actriz>
+    </reparto>
+    <pais>España</pais>
+    <duracion tiempo='Minutos'>103</duracion>
+    <calificacion>No recomendada a menores de 12 años</calificacion>
+  </pelicula>
+</peliculas>

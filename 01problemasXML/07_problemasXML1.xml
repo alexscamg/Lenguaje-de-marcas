@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE pedidos>
+<pedidos>
+  <pedido referencia='A2023'>
+    <destinatario> Juan Delgado Martinez</destinatario>
+    <articulo> Bicicleta </articulo>
+    <direccion>
+      <calle> Barco 4</calle>
+      <piso> Tertcero </piso>
+      <letra> A </letra>
+    </direccion>
+    <dia_entrega> 19-5-2000</dia_entrega>
+  </pedido>
+</pedidos>
