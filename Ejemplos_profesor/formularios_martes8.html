@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario básico</title>
+</head>
+
+<body>
+  <h1>Formulario General</h1>
+  <form action="control.html" method="get" autocomplete="off">
+    <!-- Post siempre-->
+
+    <div>
+      <label for="usuario">Usuario</label>
+      <input type="text" name="usuario" id="usuario" required autofocus minlength="3" maxlength="7"
+        title="Escribe nombre usuario" placeholder="Minimo 3 Maximo 7">
+      <!--En name se pone el nombre de la variable con la que se manda el dato introducido por el usuario || id para el identificador y para css-->
+    </div>
+    <div>
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre" tabindex="1">
+    </div>
+    <div>
+      <label for="apellido">Apellido</label>
+      <input type="text" name="apellido" id="apellido">
+    </div>
+    <div>
+      <label for="edad">Edad</label>
+      <input type="number" name="edad" id="edad" tabindex="2" min="18" value="18" step="5">
+    </div>
+    <div>
+      <label for="clave">Contraseña</label>
+      <input type="password" name="clave" id="clave" required>
+    </div>
+    <div>
+      <label for="correo">Correo Electrónico</label>
+      <input type="email" name="correo" id="correo" required>
+    </div>
+    <div>
+      <label for="fechanac">Fecha de nacimiento</label>
+      <input type="date" name="fechanac" id="fechanac" required>
+    </div>
+    <div>
+      <label for="color">Color del coche</label>
+      <input type="color" name="color" id="color" required>
+    </div>
+    <div>
+      <h2>Elegir un turno de trabajo</h2>
+      <input type="radio" id="mañana" name="turno1" value="M" checked>
+      <label for="mañana">Mañana</label>
+      <input type="radio" id="tarde" name="turno2" value="T">
+      <label for="tarde">Tarde</label>
+
+    </div>
+    <div>
+      <h2>Mostrar preferencias en el turno de trabajo</h2>
+      <input type="checkbox" id="primer" name="turno1"> 
+      <label for="primer">Primero</label>
+      <input type="checkbox" id="segundo" name="turno2" checked>
+      <label for="segundo">Segundo</label>
+      <input type="checkbox" id="tercero" name="turno3">
+      <label for="tercero">Tercero</label>
+    </div>
+    <hr>
+    <div>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Borrar">
+    </div>
+  </form>
+</body>
+
+</html>
