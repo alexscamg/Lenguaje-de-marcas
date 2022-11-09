@@ -1,109 +1,113 @@
 <!DOCTYPE html>
-<HTML>
+<html>
 
-<HEAD>
-	<META charset="utf-8">
-	<TITLE>Formulario 1 </TITLE>
-</HEAD>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario 1 </title>
+</head>
 
-<BODY>
+<body>
 	<form action="html5formularios.html" method="post">
-		<DIV>
+		<div>
 			<label for="nombre" title="Introduce tu nombre">
-				Cuál es tu nombre</LABEL>
+				Cuál es tu nombre</label>
 			<input id="nombre" name="nombre" type="text" placeholder="Introduzca texto" autocomplete accesskey="1"
 				maxlength="10">
-		</DIV>
+		</div>
 
-		<DIV>
-			<label for="apellidos">Apellidos</LABEL>
+		<div>
+			<label for="apellidos">Apellidos</label>
 			<input id="apellidos" name="apellidos" type="text" placeholder="p.e. López Castejón" accesskey="2" required
 				autofocus>
-		</DIV>
+		</div>
 
-		<DIV>
-			<label for="ciudad">Ciudad</LABEL>
+		<div>
+			<label for="ciudad">Ciudad</label>
 			<input id="ciudad" type="text" name="ciudad" value="Sevilla" readonly>
-		</DIV>
-		<DIV>
-			<label for="usuario">Usuario</LABEL>
+		</div>
+		<div>
+			<label for="usuario">Usuario</label>
 			<input id="usuario" type="text" name="usuario" minlength="5" placeholder="p.e. carmen" pattern="^[^0-9]+$">
-		</DIV>
-		<DIV><!-- permite introducir un nombre sin números -->
-			<label for="patron">Patrón</LABEL>
+		</div>
+		<div>
+			<!-- permite introducir un nombre sin números -->
+			<label for="patron">Patrón</label>
 			<input id="patron" type="text" name="patron" pattern="[^0-9]+" required>
-		</DIV>
-		
-		<DIV>
-			<label for="clave">Palabra de paso</LABEL>
+		</div>
+
+		<div>
+			<label for="clave">Palabra de paso</label>
 			<input id="clave" type="password" name="clave">
-		</DIV>
+		</div>
 
 
-		<DIV>
+		<div>
 			<input type="submit" value="Enviar">
 			<input type="reset" value="Borrar">
-		</DIV>
+		</div>
 	</form>
 
 
-	<a href="https://www.w3schools.com/tags/tag_input.asp">https://www.w3schools.com/tags/tag_input.asp</a>
+	<a href="https://www.w3schools.com/tags/tag_input.asp" target="_blank">https://www.w3schools.com/tags/tag_input.asp</a>
 	<hr>
+
+
+	
 	<form action="html5formularios2.html" method="post">
-		<DIV>
-			<LABEL for="correo">Correo Electrónico</LABEL>
+		<div>
+			<label for="correo">Correo Electrónico</label>
 			<input type="email" id="correo" name="correo" required>
-		</DIV>
-		<DIV>
-			<LABEL for="url">URL</LABEL>
+		</div>
+		<div>
+			<label for="url">URL</label>
 			<input type="url" id="Web" name="url" value="https://" size="40">
-		</DIV>
-		<DIV>
-			<LABEL for="fecha">FECHA</LABEL>
+		</div>
+		<div>
+			<label for="fecha">FECHA</label>
 			<input type="date" id="fecha" name="fecha">
-		</DIV>
-		<DIV>
-			<LABEL for="hora">HORA</LABEL>
+		</div>
+		<div>
+			<label for="hora">HORA</label>
 			<input type="time" id="tiempo" name="hora">
-		</DIV>
-		<DIV>
-			<LABEL for="fechaNac">Fecha y hora de nacimiento</LABEL>
+		</div>
+		<div>
+			<label for="fechaNac">Fecha y hora de nacimiento</label>
 			<input type="datetime" id="fechaNac" name="fechaNac">
-		</DIV>
-		<DIV>
-			<LABEL for="mes">Mes</LABEL> 
+		</div>
+		<div>
+			<label for="mes">Mes</label>
 			<input type="month" id="mes" name="mes">
-		</DIV>
-		<DIV>
-			<LABEL for="mes">Semana</LABEL> 
+		</div>
+		<div>
+			<label for="mes">Semana</label>
 			<input type="week" id="semana">
-		</DIV>
-		<DIV>
-			<LABEL for="numero">Número (entre -10 y 10)</LABEL>
+		</div>
+		<div>
+			<label for="numero">Número (entre -10 y 10)</label>
 			<input type="number" id="numero" min="-10" value="0" name="numero">
-		</DIV>
-		<DIV>
-			<LABEL for="rango">Intervalo (min 0, max 10)</LABEL>
+		</div>
+		<div>
+			<label for="rango">Intervalo (min 0, max 10)</label>
 			<input type="range" id="rango" min="0" max="10" value="0" name="rango">
-		</DIV>
-		<DIV>
-			<LABEL for="rango">Teléfono</LABEL>
+		</div>
+		<div>
+			<label for="rango">Teléfono</label>
 			<input type="tel" id="tel">
-		</DIV>
-		<DIV>
-			<LABEL for="busqueda">Término de búsqueda</LABEL>
+		</div>
+		<div>
+			<label for="busqueda">Término de búsqueda</label>
 			<input type="search" id="busqueda" name="busqueda">
-		</DIV>
-		<DIV>
-			<LABEL for="color">Color Favorito </LABEL>
+		</div>
+		<div>
+			<label for="color">Color Favorito </label>
 			<input type="color" id="color" name="color">
-		</DIV>
-		<DIV>
+		</div>
+		<div>
 			<input type="submit" value="¡DALE!">
 			<input type="reset" value="BORRAR">
-		</DIV>
+		</div>
 	</form>
 
-</BODY>
+</body>
 
-</HTML>
+</html>
