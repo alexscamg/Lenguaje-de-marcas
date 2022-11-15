@@ -10,55 +10,56 @@
 
 <body>
   <header>
-    <H1>Formulario de registro</H1>
+    <h1>Formulario de registro</h1>
   </header>
   <form action="" method="post">
-    <p>
+    <div>
       <label for="nombre">Nombre:</label>
       <input type="text" id="nombre" name="Nombre">
-    </p>
-    <p>
+    </div>
+    <div>
       <label for="apellidos">Apellidos:</label>
       <input type="text" id="apellidos" name="Apellidos">
-    </p>
-    <p>
+    </div>
+    <div>
       <label for="sexo">Sexo:</label>
       <input type="radio" id="hombre" name="genero" value="H">
       <label for="hombre">hombre</label>
       <input type="radio" id="mujer" name="genero" value="M">
       <label for="mujer">mujer</label>
-    </p>
-    <p>
+    </div>
+    <div>
       <label for="correo">Correo:</label>
       <input type="email" id="correo" name="email">
-    </p>
+    </div>
 
-      <p>
+      <div>
         <label for="poblacion">Población:</label>
-        <select id="poblacion">
+        <select id="poblacion" name="poblacion">
           <option value="al">Alicante</option>
           <option value="se">Sevilla</option>
           <option value="m">Madrid</option>
           <option value="ga">galicia</option>
           </select>
-      </p>
-      <p>
+      </div>
+      <div>
         <label for="descripcion">Descripción:</label>
         <textarea name="descripcion" id="descripcion" cols="40" rows="4"></textarea>
-      </p>
-    <p>
-      <input type="checkbox" id="info" value="info" checked name="informacion">
+      </div>
+    <div>
+      <input type="checkbox" id="info" value="info" name="informacion" required>
       <label for="info">Deseo recibir información sobre novedades y ofertas</label>
 
-    </p>
+    </div>
 
-    <p>
-      <input type="checkbox" id="declaraciones" name="declaracion" value="declaracion">
+    <div>
+      <input type="checkbox" id="declaraciones" name="declaracion" value="declaracion" required>
       <label for="declaraciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa
         sobre protección de datos</label>
-    </p>
+    </div>
     <div>
-      <button>Enviar</button>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Reestablecer">
     </div>
   </form>
 </body>
