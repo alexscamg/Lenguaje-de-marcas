@@ -8,15 +8,40 @@
 </head>
 <body>
   <form action="" method="post">
-    <h3>form1.html</h3>
+    <h3>form1.html</h3>      <!--He utilizado h3 porque considero que son partes de otra pagina y no una pagina individual-->
 <fieldset>
   <legend>
     Por favor, complete estas opciones
   </legend>
   <div>
-    <select name="sistema" id="sistema"></select>
+    <select name="sistema" id="sistema">
+      <option value="KDE">KDE</option>
+      <option value="Gnome">Gnome</option>
+      <option value="Unity">Unity</option>
+    </select>
+  </div>
+  <div>
+    <textarea name="texto" id="texto" cols="30" rows="3" placeholder="Escriba aquí, por favor"></textarea>
+  </div>
+  <div>
+    <label for="color">Elija un color:</label>
+    <input type="color" id="color" name="color">
+  </div>
+  <div>
+    <label for="hora">Elija una hora:</label>
+    <input type="time" id="hora" name="hora">
   </div>
 </fieldset>
+<div>
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Reestablecer">
+</div>
   </form>
+
+  <h3>form2.html</h3>
+  <fieldset>
+    <legend>Por favor, complete estas opciones</legend>
+    
+  </fieldset>
 </body>
 </html>
