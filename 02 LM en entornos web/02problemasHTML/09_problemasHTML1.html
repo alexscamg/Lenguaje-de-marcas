@@ -38,10 +38,53 @@
 </div>
   </form>
 
-  <h3>form2.html</h3>
-  <fieldset>
-    <legend>Por favor, complete estas opciones</legend>
+  <form method="post">
+    <h3>form2.html</h3>
+    <fieldset>
+      <legend>Por favor, complete estas opciones</legend>
+      <div>
+        <label for="fecha">Elija una fecha:</label>
+        <input type="date" name="fecha" id="fecha">
+      </div>
+      <div>
+        <label for="fichero">Elija un fichero:</label>
+        <input type="file" name="fichero" id="fichero">
+      </div>
+      <div>
+        <input type="checkbox" id="jpg" value="jpg" name="jpg">
+        <label for="jpg">JPG</label>
+        <input type="checkbox" id="png" value="png" name="png">
+        <label for="png">PNG</label>
+      </div>
+      <div>
+        <label for="color">Elija un color:</label>
+        <input type="color" id="color2" name="color">
+      </div>
+      <div>
+        <label for="instituto">Instituto</label>
+        <input type="text" id="instituto" name="instituto">
+      </div>
+      <div>
+        <label for="estudios">Estudios elejidos</label>
+        <input type="text" id="estudios" name="estudios">
+      </div>
+      <div>
+        <textarea name="texto2" id="texto2" cols="30" rows="3" placeholder="Inserte aquí el texto"></textarea>
+      </div>
+      <div>
+        <label for="hora2">Elija una hora:</label>
+        <input type="time" id="hora2" name="hora">
+      </div>
+        <select name="dispositivo" id="dispositivos" multiple>
+          <option value="TA">Tarjeta aceleradora</option>
+          <option value="LED">Monitor LED</option>
+          <option value="SSD">SSD</option>
+          <option value="Red">Red</option>
+        </select>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reestablecer">
+    </fieldset>
     
-  </fieldset>
+  </form>
 </body>
 </html>
