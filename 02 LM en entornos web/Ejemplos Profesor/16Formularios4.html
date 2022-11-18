@@ -1,48 +1,40 @@
 ﻿<!DOCTYPE html>
-<html><head>
-<style>
- /* fieldset { 
-	width:20%;
-	display:inline;
-} 
-label {
-	display: block;
-} */
-
-</style>
-<title>Formularios 4</title>
-</head>
-<body>
+<HTML><HEAD>
+<STYLE>
+</STYLE>
+<TITLE>Formularios 4</TITLE>
+</HEAD>
+<BODY>
 <form method="post" action="tratamiento.php">
 	<fieldset>
-		<legend>Datos personales</legend> 
-		<label for="nombre">¿Cuál es su nombre?</label>
+		<LEGEND>Datos personales</LEGEND> 
+		<LABEL for="nombre">¿Cuál es su nombre?</LABEL>
 		<input type="text" name="nombre" id="nombre">
-		<label for="apellido">¿Cuál es su apellido?</label>
+		<LABEL for="apellido">¿Cuál es su apellido?</LABEL>
 		<input type="text" name="apellido" id="apellido">
-		<label for="correo">¿Cuál es su correo electrónico?</label>
+		<LABEL for="correo">¿Cuál es su correo electrónico?</LABEL>
 		<input type="email" name="correo" id="email">
 	</fieldset>
 	<fieldset>
-		<legend>Datos laborales</legend> 
-		<div>
-			<label for="vidalaboral">Vida laboral</label>
+		<LEGEND>Datos laborales</LEGEND> 
+		<DIV>
+			<LABEL for="vidalaboral">Vida laboral</LABEL>
 			<input type="file" id="vidalaboral" required>
-		</div>
-		<div>
+		</DIV>
+		<DIV >
 			<p>Elija su turno</p>
 			<input type="radio" name="turno" id="mañana" value="mañana">
-			<label for="mañana">Mañana</label>
+			<LABEL for="mañana">Mañana</LABEL>
 			<input type="radio" name="turno" id="tarde" value="tarde">
-			<label for="tarde">Tarde</label>
-			<input type="radio" name="turno" id="indi" value="indi">
-			<label for="indi">Indiferente</label>
-		</div>
+			<LABEL for="tarde">Tarde</LABEL>
+			<input type="radio" name="turno" id="indi"value="indi">
+			<LABEL for="indi">Indiferente</LABEL>
+		</DIV>
 	</fieldset>
-	<div>
+	<DIV>
 	<input type="submit">
 	<input type="reset">
-</div>
+</DIV>
 </form>
-</body>
-</html>
+</BODY>
+</HTML>

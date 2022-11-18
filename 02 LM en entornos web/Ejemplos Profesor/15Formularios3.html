@@ -24,44 +24,44 @@ div { padding-bottom:3px;}
 	</style>
 	<title>Formularios 3</title>
 </head>
-<body>
+<BODY>
 	<h1>Formularios 3</h1>
 	<h2>Primer ejemplo</h2>
 <form id="a" action="paginadestino.php" method="get" target="_blank">
-	<div>
-		<label for="usuario">Usuario</label>
+	<DIV>
+		<label for='usuario'>Usuario</label>
 		<input type="text" name="usuario" id="usuario">
-	</div>
-	<div>
+	</DIV>
+	<DIV>
 		<label for="pass" lang="en" title="Clave de acceso">Password</label>
 		<input type="password" name="pass" id="pass">
-	</div>
+	</DIV>
 
-	<div><!-- cuidado con las " y las ' que siempre deben ir anidadas-->
+	<DIV><!-- cuidado con las " y las ' que siempre deben ir anidadas-->
 		<input type="image" name="botondeenvio"
-	src="imagenes/botonmolon.jpg"   alt="Enviar formulario" onclick="alert('No por mucho madrugar amanece más temprano')">
-	</div>
-	<div>  <!--No envía nada. Suele usarse para ejecutar scripts Javascript--->
-		<button type="button" onclick="alert('Porque un día maté a un perro, mataperros me llamaron')">
-	Un botón para cosas diversas</button>
-	</div>  
-	<div><!-- similar a  BUTTON type="button" pero el texto va en value. No envía nada. Suele usarse para ejecutar scripts Javascript-->
+	src="imagenes/botonmolon.jpg"   alt="Enviar formulario" onclick="alert('No por mucho madrugar amanace más temprano')">
+	</DIV>
+	<DIV>  <!--No envía nada. Suele usarse para ejecutar scripts Javascript--->
+		<BUTTON type="button" onclick="alert('Porque un día maté a un perro, mataperros me llamaron')">
+	Un botón para cosas diversas</BUTTON>
+	</DIV>  
+	<DIV><!-- similar a  BUTTON type="button" pero el texto va en value. No envía nada. Suele usarse para ejecutar scripts Javascript-->
 		<input type="button" value="Esto es un botón" onclick="document.write('Ya casi es jueves')">
-	</div>
+	</DIV>
 </form>
 <h2>Segundo ejemplo</h2>
 <form id="b" action="procesando.php"  name="form" method="post" enctype="multipart/form-data">
-	<div>
-		<label for="archivo">Seleccionar archivo</label>
+	<DIV>
+		<LABEL for="archivo">Seleccionar archivo</LABEL>
 		<input type="file"  id="archivo" size="40" multiple> <!-- multiple para permitir varios archivos	-->
-	</div>
-	<div>
+	</DIV>
+	<DIV>
 		<input type="submit" value="Subir archivo">
-	</div>
+	</DIV>
 </form>
 
-</body>
-</html>
+</BODY>
+</HTML>
 
 
 
