@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,15 +11,19 @@
   <form action="" method="post">
   <div>
     <label for="usuario">Nombre de usuario:</label>
-    <input type="text" id="usuario" name="usuario" pattern="[a-z]{0,15}" title="Minúscula, max 15 caracteres">
+    <input type="text" id="usuario" name="usuario" pattern="[a-z]{1,15}" title="Minúscula, max 15 caracteres">
   </div>
   <div>
     <label for="numero">Introduce un numero binario:</label>
-    <input type="text" name="numero" id="numero" pattern="[0-1]{0,8}" title="Introoduce un numero binario, Max 8">
+    <input type="text" name="numero" id="numero" pattern="[0-1]{1,8}" title="Introduce un numero binario, Max 8">
   </div>
   <div>
     <label for="codigo">Introduce un código:</label>
-    <input type="text" name="codigo" id="codigo" pattern="" title="3 caracteres y 3 números">
+    <input type="text" name="codigo" id="codigo" pattern="[A-Za-z]{3}[0-9]{3}" title="3 caracteres y 3 números">
+  </div>
+  <div>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Reestablecer">
   </div>
 
   </form>
