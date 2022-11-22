@@ -1,4 +1,4 @@
-:lang(eng) {
+:lang(en) {
 	font-style:italic;
 	color:green;
 }
@@ -22,8 +22,8 @@ font-weight:bolder;
 border:2px red solid;	
 }
 
-:focus { /* para cualquier elemento con el foco */
-	background: pink;
+:focus { /* para cualquier elemento con el foco Etiquetas: tabindex y input */ 
+	background-color: pink;
 	width:400px;
 	
 }
@@ -34,5 +34,6 @@ p:focus {
 
 /* o de forma particular*/
 input:focus {
-background: rgb(209, 192, 255);
+background-color: rgb(49, 30, 85);
 } /**/
+
