@@ -1,3 +1,10 @@
-main{
-  background: linear-gradient() black;
-}  
+main {
+    text-align:justify;
+    text-indent: 1.5%;
+    background: linear-gradient(to bottom, grey, white); 
+    padding:0 10px 0 10px;
+}
+
+strong {
+    color:goldenrod;
+}
