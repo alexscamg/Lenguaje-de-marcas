@@ -1,0 +1,39 @@
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 300px
+
+}
+
+table caption{
+  color: darkblue;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+table tr th {
+  color: white;
+  background-color: black;
+}
+
+table tr.impar{
+  color: wheat;
+  background-color: tomato;
+  text-align: center;
+}
+
+table tr.par {
+  color: beige;
+  background-color: lightsalmon;
+  text-align: center;
+}
+
+table tr td.transporte {
+  color: olivedrab;
+  background-color: greenyellow;
+  text-align: center;
+}
+
+
+
+
