@@ -34,6 +34,9 @@ table tr td.transporte {
   background-color: greenyellow;
   text-align: center;
 }
+div {
+  display: inline;
+}
 
 section>div {
   column-count: 2;
