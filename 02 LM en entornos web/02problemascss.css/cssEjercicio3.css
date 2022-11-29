@@ -40,33 +40,16 @@ section>div {
   column-rule: 5px outset gray;
 }
 
-section div.original{
-
-            width: 250px;
-            height: 250px;
-            margin: 30px;
-            background-image: url(imagencss.png);
-        }
+section div img.original{
+  border-radius: 150px;
 }
 
-section div.mediana {
-  background-image: url(logoccs.png);
+section div img.mediana{
   width: 150px;
-  height: 170px;
-}
-.mediana:hover {
-background-image: url(logocss2.png);
-height: 250px; /*ancho de la imagen*/
-width:250px; /*alto de la imagen*/
 }
 
-section div.pequeña{
-  background-image: url(logocss.png);
+section div img.pequeña{
   width: 100px;
-  height: 110px;
-}
-section div {
-  clear: both;
 }
 section div.cuadrado {
     width: 100px; 
@@ -83,4 +66,8 @@ section div.cuadrado2 {
     height: 100px; 
     background-image: url(fotoslogo.png);
     background-size: 100px;
+}
+section div.caja{
+  border: 2px solid rebeccapurple;
+  padding: .5em;
 }
