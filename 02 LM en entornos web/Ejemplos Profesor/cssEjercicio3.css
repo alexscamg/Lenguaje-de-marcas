@@ -34,6 +34,53 @@ table tr td.transporte {
   text-align: center;
 }
 
+section>div {
+  column-count: 2;
+  column-gap: 30px;
+  column-rule: 5px outset gray;
+}
 
+section div.original{
 
+            width: 250px;
+            height: 250px;
+            margin: 30px;
+            background-image: url(imagencss.png);
+        }
+}
 
+section div.mediana {
+  background-image: url(logoccs.png);
+  width: 150px;
+  height: 170px;
+}
+.mediana:hover {
+background-image: url(logocss2.png);
+height: 250px; /*ancho de la imagen*/
+width:250px; /*alto de la imagen*/
+}
+
+section div.pequeña{
+  background-image: url(logocss.png);
+  width: 100px;
+  height: 110px;
+}
+section div {
+  clear: both;
+}
+section div.cuadrado {
+    width: 100px; 
+    height: 100px; 
+    background-image: url(logoadobe.png);
+    background-size: 100px;
+    display: inline-block;
+    width: 100px;
+}
+section div.cuadrado2 {
+    display: inline-block;
+    width: 100px;
+    width: 100px; 
+    height: 100px; 
+    background-image: url(fotoslogo.png);
+    background-size: 100px;
+}
