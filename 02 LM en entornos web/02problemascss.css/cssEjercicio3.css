@@ -1,7 +1,8 @@
 table {
   border-collapse: collapse;
   table-layout: fixed;
-  width: 300px
+  width: 300px;
+  border: 1px black solid;
 
 }
 
@@ -16,7 +17,7 @@ table tr th {
   background-color: black;
 }
 
-table tr.impar{
+table tr:nth-child(even){
   color: wheat;
   background-color: tomato;
   text-align: center;
