@@ -1,7 +1,12 @@
 body{
-  background-color: #DB7093;
+  background-color: #CD5C5C;
 }
-
+div{
+  background-color: #DB7093;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: -20px;
+}
 header , nav {
   text-align: center;
 }
@@ -11,4 +16,5 @@ a:link , a:visited{
 
 .link{
   color: white;
+  padding-inline: 30px;
 }
