@@ -1,0 +1,14 @@
+body{
+  background-color: #DB7093;
+}
+
+header , nav {
+  text-align: center;
+}
+a:link , a:visited{
+  text-decoration: none;
+}
+
+.link{
+  color: white;
+}
