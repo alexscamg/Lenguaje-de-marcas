@@ -34,8 +34,7 @@ body {
     position: relative;
 }
 
-.formulario_contacto li:first-child, .formulario_contacto li:last-child 
- {
+.formulario_contacto li:first-child, .formulario_contacto li:last-child {
         border-bottom: 1px solid #777;
     }
 
