@@ -18,3 +18,7 @@ a:link , a:visited{
   color: white;
   padding-inline: 30px;
 }
+
+main {
+  padding-left: 10px;
+}

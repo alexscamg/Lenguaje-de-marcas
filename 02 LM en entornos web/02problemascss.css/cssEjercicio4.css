@@ -1,0 +1,37 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Con este todo este código de arriba estamos diciendo que desde el principio ponga unos valores generales para luego ir modificando el documento html e ir dándole forma y asi se ajusta mejor a todos los navegadores */
+html {
+    font-size: 60%;
+}
+/* Ha toda la estructura html le damos un tamaño de fuente del 60%*/
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-size: 1.6em;
+}
+/* en el body ajustamos la altura minima, la distancia en tre lineas y el tamaño de letra. El tamaño de letra pisaría al declarado para toda la etiqueta html*/
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+/* En las etiquetas indicada de decimos que ponga un display block, para que se mantenga como bloques independientes y dimensione todo al 100% por defecto*/
+input, button, textarea, select {
+    font: inherit;
+}
+/* En las etiquetas indicada de decimos que ponga una fuente por defecto llamada inherit*/
+ol, ul {
+    list-style: none;
+}
+/* A todas las listas se les indica que no tengan ningún estilo */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* A las tablas se le define por defecto con un borde collapse para que junte los bordes y deje un espacio de 0*/

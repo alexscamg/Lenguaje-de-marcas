@@ -1,5 +1,5 @@
 /* Todos los elementos de la pagina */
- {
+* {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 1.2em;
     line-height: 1.6;
@@ -7,32 +7,32 @@
 }
 
 /* Todos los parrafos de la pagina */
- {
+p {
     color: #666;
 }
 
 /* Todos los elementos h1 de la pagina */
- {
+h1 {
     font-weight: bold;
     font-size: 3em;
 }
 
 
 /* Todos los párrafos de clase "entrada"*/
- {
+p.entrda {
     font-weight: bold;
     font-size: 2em;
 }
 
 
 /* Todos los párrafos hijos de id "noticia-principal" */
- {
+#noticia-principal p{
     color: green;
     padding: 1em;
 }
 
 /* Todos los span hijos de un párrafo*/
- {
+ p span{
     background: yellowgreen;
 
 }
