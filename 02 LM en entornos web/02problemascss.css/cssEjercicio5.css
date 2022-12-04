@@ -32,13 +32,13 @@ p.entrada {
 }
 
 /* Todos los span hijos de un párrafo*/
- p span{
+p span{
     background: yellowgreen;
 
 }
 
 /* Todos los span hijos de un párrafo que es hijo de id="noticia-principal"*/
- {
+#noticia-principal p span{
     background-color: red;
 
 }
@@ -54,7 +54,7 @@ p.entrada {
 
 
 /* Todos los enlaces que estén dentro de párrafos con clase "entrada   " */
-{
+.entrada a{
     text-decoration: none;
     color: orange;
     font-weight: bold;

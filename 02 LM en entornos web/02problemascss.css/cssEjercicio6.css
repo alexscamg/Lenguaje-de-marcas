@@ -1,0 +1,49 @@
+* {
+  font: system-ui;
+  font-size: 14px;
+  line-height: 1.5px;
+  color: #494949;
+}
+p{
+  color: #666;
+  text-indent: 1%;
+}
+
+h1{
+  font-weight: 700;
+  color: fuchsia;
+  font-size: 22px;
+}
+
+.producto {
+  background-color: pink;
+}
+
+.descrip{
+  font-weight: 700;
+  text-decoration: underline;
+}
+h1>span.especial {
+  color: greenyellow;
+text-decoration: underline pink;
+background-color: black;
+height: 20px;
+}
+
+#destacado {
+  text-align: center;
+}
+
+#destacado img{
+  width: 50%;
+}
+
+#anuncio {
+  background-color: #dd1e64;
+  text-align: center;
+  
+}
+
+p {
+  color: white;
+}
