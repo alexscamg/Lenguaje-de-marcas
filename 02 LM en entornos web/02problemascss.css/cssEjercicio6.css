@@ -1,4 +1,4 @@
-* {
+*{
   font-family: system-ui;
   font-size: 14px;
   line-height: 1.5px;
@@ -28,14 +28,14 @@ h1{
   font-size: 2em;
 }
 
-h1>span.especial {
+h1>span.especial{
   color: greenyellow;
 text-decoration: underline pink;
 background-color: black;
 height: 20px;
 }
 
-#destacado {
+#destacado{
   text-align: center;
 }
 
@@ -43,7 +43,7 @@ height: 20px;
   width: 50%;
 }
 
-#anuncio {
+#anuncio{
   border: 5px solid #dd1e64;
   width: 60%;
   height: 60%;
@@ -51,6 +51,6 @@ height: 20px;
   
 }
 
-p {
+p{
   color: white;
 }
