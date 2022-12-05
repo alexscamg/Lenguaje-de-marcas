@@ -1,0 +1,48 @@
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+section {
+  border: 2px solid red;
+  width: auto;
+  height: auto;
+
+}
+
+section.normal {
+  border: 2px solid green;
+  width: auto;
+  height: auto;
+  margin-left: 20px;
+}
+p {
+  text-indent: 20px;
+
+}
+
+a{
+  color: red;
+}
+em {
+  background-color: khaki;
+}
+
+section p {
+  color: blue;
+}
+
+section.normal p {
+  color: black;
+}
+
+section.normal p em{
+  background-color: khaki;
+}
+
+span{
+  font-weight: 700;
+}
+span a {
+  font-weight: normal;
+}

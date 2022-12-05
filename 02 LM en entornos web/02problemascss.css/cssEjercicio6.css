@@ -4,9 +4,12 @@
   line-height: 1.5px;
   color: #494949;
 }
+
 p{
   color: #666;
   text-indent: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 h1{
@@ -22,7 +25,9 @@ h1{
 .descrip{
   font-weight: 700;
   text-decoration: underline;
+  font-size: 2em;
 }
+
 h1>span.especial {
   color: greenyellow;
 text-decoration: underline pink;
@@ -39,8 +44,10 @@ height: 20px;
 }
 
 #anuncio {
-  background-color: #dd1e64;
-  text-align: center;
+  border: 5px solid #dd1e64;
+  width: 60%;
+  height: 60%;
+  object-position: center;
   
 }
 
