@@ -16,6 +16,11 @@ span{
   width: 200px;
 }
 
-img {
-  
+#fotoperfil {
+  float: right;
+}
+
+#bandera{
+  float: left;
+  padding-bottom: 1000px;
 }
