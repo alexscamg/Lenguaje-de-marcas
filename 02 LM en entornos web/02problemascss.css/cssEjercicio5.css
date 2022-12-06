@@ -54,7 +54,7 @@ p span{
 
 
 /* Todos los enlaces que estén dentro de párrafos con clase "entrada   " */
-.entrada a{
+p.entrada a{
     text-decoration: none;
     color: orange;
     font-weight: bold;

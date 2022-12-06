@@ -28,7 +28,7 @@ h1{
   font-size: 2em;
 }
 
-h1span.especial{
+h1 span.especial{
   color: greenyellow;
 text-decoration: underline pink;
 background-color: black;
