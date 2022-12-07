@@ -1,3 +1,14 @@
-* {
-  background-color: palevioletred;
+html {
+  background-color: #FF69B4;
+  padding: 30px;
+  padding-top: 0px;
 }
+h1{
+  text-align: center;
+}
+
+img{
+  float: left;
+  width: 100px;
+}
+
