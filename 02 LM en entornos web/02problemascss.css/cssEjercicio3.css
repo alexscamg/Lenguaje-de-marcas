@@ -3,7 +3,6 @@ table {
   table-layout: fixed;
   width: 300px;
   border: 1px black solid;
-
 }
 
 table caption{
@@ -73,5 +72,5 @@ section div.cuadrado2 {
 }
 section div.caja{
   border: 2px solid rebeccapurple;
-  padding: .5em;
+
 }
