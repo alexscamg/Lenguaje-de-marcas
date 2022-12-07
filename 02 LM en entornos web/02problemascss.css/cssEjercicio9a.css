@@ -1,0 +1,14 @@
+html {
+  background-image: url(imagenes/fondorosas.jpeg);
+  background-size: 1000px;
+}
+div{
+  display: inline;
+}
+label {
+  color: palevioletred;
+}
+
+#dni{
+  display: inline-block;
+}
