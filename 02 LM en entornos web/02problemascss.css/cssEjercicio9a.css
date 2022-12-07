@@ -1,6 +1,10 @@
 html {
   background-image: url(imagenes/fondorosas.jpeg);
   background-size: 1000px;
+  
+}
+form{
+  margin: 0 auto;
 }
 div{
   display: inline;

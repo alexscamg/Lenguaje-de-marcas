@@ -1,5 +1,6 @@
 html{
   background-color: #CD5C5C;
+  scroll-behavior: smooth;
 }
 body{
   background-color: #DB7093;
@@ -18,10 +19,16 @@ h2 ,p{
 }
 
 .link{
-  color: white;
+  color: black;
   padding-inline: 30px;
 }
-
+.link:hover{
+    color: white;
+}
 main {
   padding-left: 10px;
+}
+
+article:target h2{
+  color: white;
 }

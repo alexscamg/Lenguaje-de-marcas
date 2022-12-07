@@ -7,6 +7,8 @@ section {
   border: 2px solid red;
   width: auto;
   height: auto;
+  text-align: justify;
+  padding: 0 4px;
 
 }
 

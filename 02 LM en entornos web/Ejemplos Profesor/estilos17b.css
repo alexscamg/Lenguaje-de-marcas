@@ -53,7 +53,7 @@ table th{
 
 
 :empty { 
-    border-color: white;
+    border-color: white;    /*Si el elemento esta vacío pone los bordes en blanco*/
 }
 table th:hover {
     background-color:burlywood;
