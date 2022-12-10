@@ -18,14 +18,16 @@ section.normal {
   height: auto;
   margin-left: 20px;
 }
+
 p {
   text-indent: 20px;
 
 }
 
-a{
+a {
   color: red;
 }
+
 em {
   background-color: khaki;
 }
@@ -38,13 +40,14 @@ section.normal p {
   color: black;
 }
 
-section.normal p em{
+section.normal p em {
   background-color: khaki;
 }
 
-span{
+span {
   font-weight: 700;
 }
+
 span a {
   font-weight: normal;
 }

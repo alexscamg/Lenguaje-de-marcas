@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -9,18 +9,20 @@ html {
   padding-top: 0px;
   font-size: 30px;
 }
-h1{
+
+h1 {
   text-align: center;
 }
 
-img{
+img {
   float: left;
   width: 250px;
 }
 
-img:hover{
+img:hover {
   border: 2px solid firebrick;
 }
-main:hover img{
+
+main:hover img {
   float: right;
 }

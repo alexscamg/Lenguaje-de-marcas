@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas</title>
     <style>
-        table, th, td {
-            border:2px red solid;
-            border-collapse: collapse; 
-        } 
+        table,
+        th,
+        td {
+            border: 2px red solid;
+            border-collapse: collapse;
+        }
+
         table img {
-            width:30px;
-            height:30px;
+            width: 30px;
+            height: 30px;
         }
     </style>
 </head>
+
 <body>
     <img src="imagenes/logo.jpg">
     <p>Tabla de asignaciones</p>
-    <TABLE>
+    <table>
         <caption>Tabla de asignaciones</caption>
-        <TR>
-          <TH>Origen</TH>
-          <TH>Destino</TH>
-          <TH>Compañía</TH>
-        </TR>
-        <TR>
-          <TD>Málaga</TD>
-          <TD>Madrid</TD>
-          <TD>ALSA</TD>
-        </TR> 
-        <TR>
-          <TD>Cádiz</TD>
-          <TD>Almería</TD>
-          <TD>GadirBUS</TD>
-        </TR> 
-        <TR>
-            <TD rowspan="2">Sevilla</TD>
-            <TD>Málaga</TD>
-            <TD>ALSA</TD>
-        </TR>
-        <TR>
-            <TD>Málaga</TD>
-            <TD>ALSA</TD>
-        </TR>
-        <TR>
-            <TD colspan="2">Todos los autobuses equipados con WIFI</TD>
-            <TD><img src="imagenes/logo.jpg"></TD>
-        </TR>
-    </TABLE>
-                  
+        <tr>
+            <th>Origen</th>
+            <th>Destino</th>
+            <th>Compañía</th>
+        </tr>
+        <tr>
+            <td>Málaga</td>
+            <td>Madrid</td>
+            <td>ALSA</td>
+        </tr>
+        <tr>
+            <td>Cádiz</td>
+            <td>Almería</td>
+            <td>GadirBUS</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Sevilla</td>
+            <td>Málaga</td>
+            <td>ALSA</td>
+        </tr>
+        <tr>
+            <td>Málaga</td>
+            <td>ALSA</td>
+        </tr>
+        <tr>
+            <td colspan="2">Todos los autobuses equipados con WIFI</td>
+            <td><img src="imagenes/logo.jpg"></td>
+        </tr>
+    </table>
+
 </body>
+
 </html>

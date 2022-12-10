@@ -1,12 +1,14 @@
 .caso::before {
-   content : "OJO: ";
-   color : #d14; /* este color  es #dd1144 ;*/
-   }
+   content: "OJO: ";
+   color: #d14;
+   /* este color  es #dd1144 ;*/
+}
+
 .caso::after {
-   content : url("imagenes/exclama.jpg");
- }
- 
- img {
+   content: url("imagenes/exclama.jpg");
+}
+
+img {
    width: 50px;
    height: 50px;
 }

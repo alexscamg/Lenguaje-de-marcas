@@ -1,34 +1,43 @@
-html{
+html {
   background-color: #CD5C5C;
   scroll-behavior: smooth;
 }
-body{
+
+body {
   background-color: #DB7093;
   margin-left: 200px;
   margin-right: 100px;
   margin-top: -20px;
 }
-header , nav {
+
+header,
+nav {
   text-align: center;
 }
-a:link , a:visited{
+
+a:link,
+a:visited {
   text-decoration: none;
 }
-h2 ,p{
+
+h2,
+p {
   scroll-behavior: smooth;
 }
 
-.link{
+.link {
   color: black;
   padding-inline: 30px;
 }
-.link:hover{
-    color: white;
+
+.link:hover {
+  color: white;
 }
+
 main {
   padding-left: 10px;
 }
 
-article:target h2{
+article:target h2 {
   color: white;
 }

@@ -1,10 +1,11 @@
-header{
+header {
     display: flex;
-    justify-content: center  ;
+    justify-content: center;
 }
- main {
+
+main {
     display: flex;
-    justify-content: space-around  ;
+    justify-content: space-around;
 }
 
 section {
@@ -12,7 +13,7 @@ section {
     border: solid #242222 2px;
 }
 
-section h2{
+section h2 {
     text-align: center;
     background-color: rgb(216, 165, 165);
 }
@@ -20,7 +21,6 @@ section h2{
 section p {
     text-align: justify;
     text-indent: 1em;
-    padding-left:5px;
+    padding-left: 5px;
     padding-right: 5px;
 }
-

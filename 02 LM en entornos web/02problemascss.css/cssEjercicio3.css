@@ -5,7 +5,7 @@ table {
   border: 1px black solid;
 }
 
-table caption{
+table caption {
   color: darkblue;
   font-weight: 600;
   font-size: 20px;
@@ -16,7 +16,7 @@ table tr th {
   background-color: black;
 }
 
-table tr:nth-child(even){
+table tr:nth-child(even) {
   color: wheat;
   background-color: tomato;
   text-align: center;
@@ -33,6 +33,7 @@ table tr td.transporte {
   background-color: greenyellow;
   text-align: center;
 }
+
 div {
   display: inline;
 }
@@ -43,34 +44,37 @@ section>div {
   column-rule: 5px outset gray;
 }
 
-section div img.original{
+section div img.original {
   border-radius: 150px;
 }
 
-section div img.mediana{
+section div img.mediana {
   width: 150px;
 }
 
-section div img.pequeña{
+section div img.pequeña {
   width: 100px;
 }
+
 section div.cuadrado {
-    width: 100px; 
-    height: 100px; 
-    background-image: url(logoadobe.png);
-    background-size: 100px;
-    display: inline-block;
-    width: 100px;
+  width: 100px;
+  height: 100px;
+  background-image: url(logoadobe.png);
+  background-size: 100px;
+  display: inline-block;
+  width: 100px;
 }
+
 section div.cuadrado2 {
-    display: inline-block;
-    width: 100px;
-    width: 100px; 
-    height: 100px; 
-    background-image: url(fotoslogo.png);
-    background-size: 100px;
+  display: inline-block;
+  width: 100px;
+  width: 100px;
+  height: 100px;
+  background-image: url(fotoslogo.png);
+  background-size: 100px;
 }
-section div.caja{
+
+section div.caja {
   border: 2px solid rebeccapurple;
 
 }

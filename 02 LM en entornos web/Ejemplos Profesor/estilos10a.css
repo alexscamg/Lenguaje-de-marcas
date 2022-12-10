@@ -1,17 +1,21 @@
 body {
 	border: 2px solid green;
 }
+
 header {
 	width: 50%;
-	border:2px red solid;
+	border: 2px red solid;
 }
+
 #caso1 {
-	box-sizing: content-box; /* opcion por defecto si no se pone nada*/
+	box-sizing: content-box;
+	/* opcion por defecto si no se pone nada*/
 	padding-left: 120px;
-	border-left-width: 34px ;
+	border-left-width: 34px;
 }
+
 #caso2 {
-	box-sizing: border-box; 
+	box-sizing: border-box;
 	padding-left: 120px;
-	border-left-width: 34px ;
+	border-left-width: 34px;
 }

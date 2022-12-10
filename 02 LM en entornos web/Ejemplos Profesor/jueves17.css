@@ -1,31 +1,35 @@
 p {
   color: red;
 }
+
 .destacable {
-letter-spacing: 5px;
+  letter-spacing: 5px;
 
 }
+
 p.grande {
   color: green;
   font-size: 150%;
 }
-section.grande{
+
+section.grande {
   color: rgb(218, 47, 118);
-  font-size:200%;
+  font-size: 200%;
 }
-#principal{
+
+#principal {
   color: blueviolet;
 }
 
-section p{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+section p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'trebuchet MS', sans-serif;
   color: blue;
 }
 
-article p{
+article p {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.grande p{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.grande p {
+  font-family: 'trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

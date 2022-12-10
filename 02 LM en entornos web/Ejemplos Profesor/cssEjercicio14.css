@@ -1,17 +1,21 @@
 figure {
-    width:25%; /* el 25% del ancho de la pantalla que es el padre */
+    width: 25%;
+    /* el 25% del ancho de la pantalla que es el padre */
 }
+
 img {
-    width: 100%; /* el 100% del ancho de su padre figure */
+    width: 100%;
+    /* el 100% del ancho de su padre figure */
 }
+
 figcaption {
     position: relative;
     top: -30px;
-    color:white;
+    color: white;
     text-align: center;
-    display:none;
+    display: none;
 }
 
 figure:hover figcaption {
-    display:block;
+    display: block;
 }

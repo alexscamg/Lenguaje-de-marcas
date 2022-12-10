@@ -1,36 +1,44 @@
-html{
-    border:2px green solid;
+html {
+    border: 2px green solid;
 }
+
 body {
-    border:2px solid red;
-	width:50%; /* indicamos el ancho del hijo*/
-	line-height:25px;
-	text-align:justify;
-    margin: 0 auto; /* forma clásica de centrar un bloque en su padre */
-    padding-left:10px;
-    padding-right:10px;   
+    border: 2px solid red;
+    width: 50%;
+    /* indicamos el ancho del hijo*/
+    line-height: 25px;
+    text-align: justify;
+    margin: 0 auto;
+    /* forma clásica de centrar un bloque en su padre */
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
 h1 {
     width: 320px;
-    border:2px yellow solid;
-    text-align:center;
-    margin:0 auto;/* forma clásica de centrar un bloque en su padre */
-}	
-img { 
-    border:2px red solid; 
+    border: 2px yellow solid;
+    text-align: center;
+    margin: 0 auto;
+    /* forma clásica de centrar un bloque en su padre */
+}
+
+img {
+    border: 2px red solid;
     padding: 10px;
-    margin:10px;
+    margin: 10px;
 }
 
 .floatLeft {
-    float:left;
+    float: left;
 }
-.floatRight {
-    float:right;
+
+.floatright {
+    float: right;
 }
+
 .clearBoth {
     clear: both;
-    text-align:center; 
+    text-align: center;
 }
 
 .columnas {

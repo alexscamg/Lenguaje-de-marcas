@@ -1,18 +1,21 @@
 html {
   background-image: url(imagenes/fondorosas.jpeg);
   background-size: 1000px;
-  
+
 }
-form{
+
+form {
   margin: 0 auto;
 }
-div{
+
+div {
   display: inline;
 }
+
 label {
   color: palevioletred;
 }
 
-#dni{
+#dni {
   display: inline-block;
 }

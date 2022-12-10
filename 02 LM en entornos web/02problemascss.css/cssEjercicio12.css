@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+
+div {
+  border: 2px solid gray;
+  padding: 10px;
+  height: 500px;
+  text-align: center;
+  float: left;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.nombre {
+  background-color: gray;
+  font-weight: bold;
+}
+
+
+p {
+  text-justify: distribute;
+}

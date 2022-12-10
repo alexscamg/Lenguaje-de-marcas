@@ -1,10 +1,10 @@
-
 form {
-	width:75%;
-    background-color:tomato;
+    width: 75%;
+    background-color: tomato;
 }
+
 fieldset {
-    border:4px solid black;
+    border: 4px solid black;
 }
 
 label:focus-within {
@@ -12,14 +12,15 @@ label:focus-within {
     color: #fff;
 }
 
-fieldset:focus-within legend{
-    color:white;
+fieldset:focus-within legend {
+    color: white;
 }
+
 /*
 p:hover span {
     color:red;
 }*/
 
 p span:hover {
-    color:fuchsia;
+    color: fuchsia;
 }

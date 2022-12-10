@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ejercicio 9</title>
 </head>
+
 <body>
   <form action="" method="post">
-    <h3>form1.html</h3>      <!--He utilizado h3 porque considero que son partes de otra pagina y no una pagina individual-->
-<fieldset>
-  <legend>
-    Por favor, complete estas opciones
-  </legend>
-  <div>
-    <select name="sistema" id="sistema">
-      <option value="KDE">KDE</option>
-      <option value="Gnome">Gnome</option>
-      <option value="Unity">Unity</option>
-    </select>
-  </div>
-  <div>
-    <textarea name="texto" id="texto" cols="30" rows="3" placeholder="Escriba aquí, por favor"></textarea>
-  </div>
-  <div>
-    <label for="color">Elija un color:</label>
-    <input type="color" id="color" name="color">
-  </div>
-  <div>
-    <label for="hora">Elija una hora:</label>
-    <input type="time" id="hora" name="hora">
-  </div>
-</fieldset>
-<div>
-  <input type="submit" value="Enviar">
-  <input type="reset" value="Reestablecer">
-</div>
+    <h3>form1.html</h3> <!--He utilizado h3 porque considero que son partes de otra pagina y no una pagina individual-->
+    <fieldset>
+      <legend>
+        Por favor, complete estas opciones
+      </legend>
+      <div>
+        <select name="sistema" id="sistema">
+          <option value="KDE">KDE</option>
+          <option value="Gnome">Gnome</option>
+          <option value="Unity">Unity</option>
+        </select>
+      </div>
+      <div>
+        <textarea name="texto" id="texto" cols="30" rows="3" placeholder="Escriba aquí, por favor"></textarea>
+      </div>
+      <div>
+        <label for="color">Elija un color:</label>
+        <input type="color" id="color" name="color">
+      </div>
+      <div>
+        <label for="hora">Elija una hora:</label>
+        <input type="time" id="hora" name="hora">
+      </div>
+    </fieldset>
+    <div>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Reestablecer">
+    </div>
   </form>
 
   <form method="post">
@@ -75,16 +77,17 @@
         <label for="hora2">Elija una hora:</label>
         <input type="time" id="hora2" name="hora">
       </div>
-        <select name="dispositivo" id="dispositivos" multiple>
-          <option value="TA">Tarjeta aceleradora</option>
-          <option value="LED">Monitor LED</option>
-          <option value="SSD">SSD</option>
-          <option value="Red">Red</option>
-        </select>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Reestablecer">
+      <select name="dispositivo" id="dispositivos" multiple>
+        <option value="TA">Tarjeta aceleradora</option>
+        <option value="LED">Monitor LED</option>
+        <option value="SSD">SSD</option>
+        <option value="Red">Red</option>
+      </select>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Reestablecer">
     </fieldset>
-    
+
   </form>
 </body>
+
 </html>

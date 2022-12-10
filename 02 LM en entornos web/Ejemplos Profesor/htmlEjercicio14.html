@@ -16,30 +16,31 @@
 <body>
     <hr>
     <form>
-        <DIV>
-            <LABEL for="dni">DNI</LABEL>
+        <div>
+            <label for="dni">DNI</label>
             <input id="dni" type="text" name="dni" pattern="[0-9]{2}\.[0-9]{3}\.[0-9]{3}-[a-zA-Z]"
                 placeholder="45.123.123-T">
-        </DIV>
-        <DIV>
-            <LABEL for="nombre">Nombre del usuario</LABEL>
+        </div>
+        <div>
+            <label for="nombre">Nombre del usuario</label>
             <input id="nombre" type="text" name="nombre" size="40" maxlength="150"
                 pattern="[a-zA-Z]+[ ][a-zA-Z]+([ ][a-zA-Z]+){0,2}" placeholder="K hola Hola Hola">
-        </DIV>
-        <DIV>
-            <LABEL for="email">Correo electrónico</LABEL>
+        </div>
+        <div>
+            <label for="email">Correo electrónico</label>
             <input id="email" type="email" name="email" size="40" maxlength="132"
                 pattern="[a-zA-Z0-9_-]{2,63}@[a-zA-Z0-9]{2,63}[\.][a-z]{2,4}"
                 placeholder="atencionalcliente@seguridadPC.net">
-        </DIV>
-        <DIV>
-            <LABEL for="sitioweb">Página Web</LABEL>
+        </div>
+        <div>
+            <label for="sitioweb">Página Web</label>
             <input id="sitioweb" type="url" name="sitioweb"
                 pattern="(http(s)?:\/\/)+([w]{3}[\.])+[a-z0-9]+[\.][a-z]{2,3}">
-        </DIV>
-        <DIV>
-            <LABEL for="passwd">Clave de acceso</LABEL>
-            <input id="passwd" type="password" name="passwd" pattern=".{8,10}"></DIV>
+        </div>
+        <div>
+            <label for="passwd">Clave de acceso</label>
+            <input id="passwd" type="password" name="passwd" pattern=".{8,10}">
+        </div>
         <input type="submit">
     </form>
 </body>

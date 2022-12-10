@@ -1,0 +1,9 @@
+figure figcaption{
+  display: none;
+}
+
+
+figure:hover figcaption{
+  margin-left: 20px;
+  z-index: 100;
+}

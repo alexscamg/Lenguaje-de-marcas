@@ -1,4 +1,6 @@
-*,*::before,*::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -17,16 +19,24 @@ body {
     font-size: 1.6em;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
     display: block;
     max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
     font: inherit;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 

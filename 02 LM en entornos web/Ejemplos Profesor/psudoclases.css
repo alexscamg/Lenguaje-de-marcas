@@ -1,21 +1,24 @@
 p {
   color: red;
 }
-p:hover{
+
+p:hover {
   color: aqua;
   text-transform: uppercase;
 }
 
-body{
+body {
   width: 75%;
 }
-main p{
+
+main p {
   text-align: justify;
 }
 
-main p:first-child{
+main p:first-child {
   color: blue;
 }
-main p::first-letter{
+
+main p::first-letter {
   font-size: larger;
 }

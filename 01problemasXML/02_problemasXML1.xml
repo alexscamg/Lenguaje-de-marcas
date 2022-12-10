@@ -36,7 +36,7 @@
     <precio> 9.90 </precio>
     <publicacion> 1987 </publicacion>
   </cd>
-  <cd titulo='The dock of the bay'>
+  <cd titulo='the dock of the bay'>
     <artista> Otis Redding </artista>
     <pais> USA </pais>
     <discofrafica> Atlantic </discofrafica>

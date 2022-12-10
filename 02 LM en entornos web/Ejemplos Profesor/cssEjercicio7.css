@@ -5,11 +5,13 @@
 p {
     color: #555;
 }
+
 a {
     color: #CC3300;
 }
-main  {
-    display:flex;
+
+main {
+    display: flex;
     justify-content: space-around;
 }
 
@@ -20,9 +22,10 @@ section {
 }
 
 main section {
-    width:40%;
-    border:2px red solid;
+    width: 40%;
+    border: 2px red solid;
 }
+
 main section:first-child p {
     color: #336699;
 }
@@ -34,7 +37,7 @@ main section:first-child em {
 
 .normal {
     width: 50%;
-    border:2px green solid;
+    border: 2px green solid;
 }
 
 .normal span {
@@ -46,4 +49,3 @@ em.especial {
     border: 1px solid #FF9900;
     padding: .1em;
 }
-
