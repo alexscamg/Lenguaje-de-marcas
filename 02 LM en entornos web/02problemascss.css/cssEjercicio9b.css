@@ -1,0 +1,17 @@
+html{
+  background-color: blueviolet;
+}
+
+form{
+  background-color: white;
+}
+
+input{
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+input.enviar{
+  background-color: blueviolet;
+}
+
