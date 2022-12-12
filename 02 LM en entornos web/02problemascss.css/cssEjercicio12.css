@@ -2,7 +2,12 @@ h1 {
   text-align: center;
 }
 
-div {
+div.contenedor{
+  display: flex;
+  box-sizing: border-box;
+}
+
+div.contenido{
   border: 2px solid gray;
   padding: 10px;
   height: 500px;
@@ -13,11 +18,12 @@ div {
 }
 
 .nombre {
-  background-color: gray;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(183, 183, 183);
   font-weight: bold;
 }
 
-
 p {
-  text-justify: distribute;
+  text-align: justify;
 }

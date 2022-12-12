@@ -1,9 +1,24 @@
-figure figcaption{
+img {
+  width: 400px;
+  clear: left;
+  margin-bottom: 1px;
+  margin-right: 10px;
+}
+figcaption{
   display: none;
 }
 
-
 figure:hover figcaption{
-  margin-left: 20px;
+  display: block;
+  position: relative;
+  color: red;
+  font-size: 20px;
+  top: -30px;
+  left: 115px;
   z-index: 100;
+}
+
+figure {
+  position: relative;
+  float: left;
 }

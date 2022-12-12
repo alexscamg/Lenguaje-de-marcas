@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* Con el asterisco añado a todos los selectores la propiedad box-sizing, nose porque no actua sobre body*/
 
 html {
   background-color: #FF69B4;
