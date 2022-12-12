@@ -1,21 +1,26 @@
 html {
     scroll-behavior: smooth;
-}
+}   /**/
 
 * { margin:0;}
+/* Declaramos margenes a 0*/
 
 body {
     background-color: indianred;
 }
 header {
+    /* Le damos un ancho del 80% lo centramos con margin
+    y le damos un fondo*/
     width: 80%;
     margin:0 auto;
     background-color: palevioletred;
 }
 header h1{
     text-align: center;
+    /* Centramos el titulo*/
 }
 nav {
+    /* Centramos el navegador le ponemos fondo y centramos el texto*/
     width: 80%;
     margin:0 auto;
     background-color: palevioletred;
@@ -24,7 +29,9 @@ nav {
 
 nav a {
     text-decoration:none;
+    /* Le quitamos el subrayado al enlace*/
     letter-spacing: .1em;
+    /* Espaciamos las letras y le damos margen con margin*/
     margin:1em;
     color:black;
 
@@ -32,6 +39,7 @@ nav a {
 nav a:hover {
     font-variant: small-caps; /* letra versalita */ 
     font-weight: bolder;
+    /* Letra en negrita*/
     color:white;
 }
 
@@ -47,6 +55,7 @@ main section {
 }
 
 section:target h2{
+    /*Cambiamos el color del titulo cunado pulsamos el enlace*/
     font-variant: small-caps; /* letra versalita */ 
     font-weight: bolder;
     color:white;
