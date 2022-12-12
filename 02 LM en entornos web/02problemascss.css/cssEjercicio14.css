@@ -11,10 +11,10 @@ figcaption{
 figure:hover figcaption{
   display: block;
   position: relative;
-  color: red;
+  color: white;
   font-size: 20px;
   top: -30px;
-  left: 115px;
+  text-align: center;
   z-index: 100;
 }
 
