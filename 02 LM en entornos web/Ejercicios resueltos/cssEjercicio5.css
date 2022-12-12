@@ -38,7 +38,7 @@ p span {
 }
 
 /* Todos los span hijos de un párrafo que es hijo de id="noticia-principal"*/
-#noticia-principal h2 span {
+#noticia-principal p span {
     background-color: red;
 
 }
