@@ -1,0 +1,19 @@
+html {
+  background-image: url(imagenes/fondorosas.jpeg);
+  background-size: 2000px;
+}
+
+form {
+  width:50%;
+  margin: 0 auto;
+}
+
+
+
+label {
+  color: palevioletred;
+}
+
+#botones {
+  text-align: center;
+}

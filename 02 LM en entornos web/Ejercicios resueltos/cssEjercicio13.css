@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+/* Con el asterisco añado a todos los selectores la propiedad box-sizing, no se porque no actua sobre body*/
+
+body {
+  width:80%;
+  margin:0 auto;
+  text-align:justify;
+  background-color: #FF69B4;
+  padding: 30px;
+  padding-top: 0px;
+  font-size: 1.5em;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  float: left;
+  width: 250px;
+  padding:10px;
+}
+
+img:hover {
+  border: 2px solid firebrick;
+}
+
+main:hover img {
+  float: right;
+}
