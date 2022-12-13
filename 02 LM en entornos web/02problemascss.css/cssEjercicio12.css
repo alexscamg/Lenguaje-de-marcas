@@ -2,12 +2,12 @@ h1 {
   text-align: center;
 }
 
-div.contenedor{
+div.contenedor {
   display: flex;
   box-sizing: border-box;
 }
 
-div.contenido{
+div.contenido {
   border: 2px solid gray;
   padding: 10px;
   height: 500px;

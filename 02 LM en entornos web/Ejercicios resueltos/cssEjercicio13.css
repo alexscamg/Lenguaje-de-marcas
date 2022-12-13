@@ -16,8 +16,8 @@ h1 {
 }
 
 img {
-    width:200px;
-    margin-right:20px;
+    width: 200px;
+    margin-right: 20px;
     float: left;
 }
 
@@ -26,9 +26,9 @@ p {
     text-align: justify;
 }
 
-main:hover img{
-    margin-left:20px;
-    float:right;
+main:hover img {
+    margin-left: 20px;
+    float: right;
     border: 5px red solid;
     transition: border 2s;
 }

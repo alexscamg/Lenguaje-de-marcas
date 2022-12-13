@@ -1,62 +1,73 @@
 html {
     scroll-behavior: smooth;
-}   /**/
+}
 
-* { margin:0;}
+/**/
+
+* {
+    margin: 0;
+}
+
 /* Declaramos margenes a 0*/
 
 body {
     background-color: indianred;
 }
+
 header {
     /* Le damos un ancho del 80% lo centramos con margin
     y le damos un fondo*/
     width: 80%;
-    margin:0 auto;
+    margin: 0 auto;
     background-color: palevioletred;
 }
-header h1{
+
+header h1 {
     text-align: center;
     /* Centramos el titulo*/
 }
+
 nav {
     /* Centramos el navegador le ponemos fondo y centramos el texto*/
     width: 80%;
-    margin:0 auto;
+    margin: 0 auto;
     background-color: palevioletred;
-    text-align:center;
+    text-align: center;
 }
 
 nav a {
-    text-decoration:none;
+    text-decoration: none;
     /* Le quitamos el subrayado al enlace*/
     letter-spacing: .1em;
     /* Espaciamos las letras y le damos margen con margin*/
-    margin:1em;
-    color:black;
+    margin: 1em;
+    color: black;
 
 }
+
 nav a:hover {
-    font-variant: small-caps; /* letra versalita */ 
+    font-variant: small-caps;
+    /* letra versalita */
     font-weight: bolder;
     /* Letra en negrita*/
-    color:white;
+    color: white;
 }
 
 main {
     width: 80%;
     height: auto;
     background-color: palevioletred;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 main section {
-    padding:0 0 1% 1%;
+    padding: 0 0 1% 1%;
 }
 
-section:target h2{
+section:target h2 {
     /*Cambiamos el color del titulo cunado pulsamos el enlace*/
-    font-variant: small-caps; /* letra versalita */ 
+    font-variant: small-caps;
+    /* letra versalita */
     font-weight: bolder;
-    color:white;
+    color: white;
 }
