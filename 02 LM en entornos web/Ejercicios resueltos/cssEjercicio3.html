@@ -26,30 +26,30 @@
                         target="_blank">Línea de código</a></li>
             </ul>
             </p>
-            <table>
+            <TABLE>
                 <caption>Tabla 1</caption>
-                <tr>
-                    <th>Origen</th>
-                    <th>Destino</th>
-                    <th>Medio</th>
-                </tr>
-                <tr>
-                    <td>Sevilla</td>
-                    <td>Cádiz</td>
-                    <td>tren</td>
-                </tr>
-                <tr>
-                    <td>Lugo</td>
-                    <td>Oviedo</td>
-                    <td>Coche</td>
-                </tr>
-            </table>
+                <TR>
+                    <TH>Origen</TH>
+                    <TH>Destino</TH>
+                    <TH>Medio</TH>
+                </TR>
+                <TR>
+                    <TD>Sevilla</TD>
+                    <TD>Cádiz</TD>
+                    <TD>Tren</TD>
+                </TR>
+                <TR>
+                    <TD>Lugo</TD>
+                    <TD>Oviedo</TD>
+                    <TD>Coche</TD>
+                </TR>
+            </TABLE>
         </section>
         <section>
             <h3>Columnas</h3>
             <p>El siguiente texto debes ponerlo en columnas aplicando las reglas CSS adecuadas a la caja que lo
                 contiene. <a href="https://www.html6.es/t17_columnas.html" target="_blank">Más info.</a></p>
-            <div>
+            <div class="columnas">
                 <p>Actualmente la mayoría de ordenadores están conectados a alguna red (internet, intranet, etc.) y casi
                     todos lo hacen utilizando el modelo TCP/IP. Este modelo es un protocolo para comunicación en redes
                     que permite que un equipo pueda comunicarse dentro de una red. Está basado en el modelo teórico OSI
@@ -67,7 +67,18 @@
 
             <ol>
                 <li>Muestra una imagen en tres tamaños distintos usando la etiqueta <code>IMG</code></li>
+                <IMG src="imagenes/ceuta.jpg" alt="Puerto de Ceuta. Fotografía" class="grande"
+                    title="Tamaño grande de la fotografía">
+                <IMG src="imagenes/ceuta.jpg" alt="Puerto de Ceuta. Fotografía" class="mediana"
+                    title="Tamaño mediano de la fotografía">
+                <a href="#">
+                    <IMG src="imagenes/ceuta.jpg" alt="Puerto de Ceuta. Fotografía" class="pequeña" id="primera"
+                        title="Tamaño pequeño de la fotografía">
+                        <IMG src="imagenes/malpica1.jpg" id="segunda" class="pequeña">
+                </a>
                 <li>Muestra dos rectángulos con dos imágenes de fondo cada uno de ellos.</li>
+                <div id="rect1"></div>
+                <div id="rect2"></div>
                 <li>Incluye <code>border-radius:150px;</code> en alguna imagen del punto 1. e incluye otros formatos
                     visuales para imágenes en las otras dos. Debes incluir <code>:hover</code> para que al pasar por
                     encima de una imagen muestre otra.
@@ -75,6 +86,19 @@
                 <li>Existe una propiedad (<code>object-fit: cover;</code>) que se puede aplicar a una imagen con
                     etiqueta <code>IMG</code>. ¿Para que sirve? Cuéntamelo en este documento usando una caja posicionada
                     de forma absoluta.</li>
+                <div id="caja_abs">
+                    <h3>Propiedad object-fit: cover;</h3>
+                    <p>
+                    Es una propiedad de ajuste al objeto destino, que contendrá la imagen o el vídeo. Es decir, esta propiedad determina cómo debe cambiar el tamaño de la fuente (imagen o vídeo) para ajustarse al contenedor de la página.
+                    Mediante los valores proporcionados por la propiedad, el contenido es dimensionado al contenedor. Dicho de otra forma, la propiedad especifica cómo se va a distribuir la ALTURA y el ANCHO de un elemento respecto a las medidas del contenedor.
+                    </p>
+                    <ul>
+                        <li><strong>fill</strong> - Valor por defecto. Estira el contenido hasta su contenedor sin tener en cuenta el aspect-ratio.</li>
+                        <li><strong>contain</strong> - Incrementa o reduce el tamaño del contenido hasta adoptar el tamaño del contenedor respetando el aspect-ratio.</li>
+                        <li><strong>cover</strong> - El contenido completará el alto y ancho del contenedor pero cortando información si es necesario.</li>
+                        <li><strong>none</strong> - El contenido se expande a su tamaño original sin respetar los límites del padre.</li>
+                        <li><strong>scale-down</strong> - Selecciona el menor de la comparación entre none y contain.</li>
+                    </ul>
                 </div>
         </section>
     </main>

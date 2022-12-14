@@ -1,40 +1,27 @@
 main {
-    /* Justificamos el texto a todo los margenes, lo identamos 
-    y le damos un fondo difuminado*/
-    text-align: justify;
+    text-align:justify;
     text-indent: 1.5%;
-    background: linear-gradient(to bottom, grey, white);
-    padding: 0 10px 0 10px;
+    background: linear-gradient(to bottom, grey, white); 
+    padding:0 10px 0 10px;
 }
-
 main p::first-letter {
-    /* Indicamos la primera letra del h2árrafo 
-    la h2onemos negrita y mayor tamaño*/
     font-size: 200%;
     font-weight: bold;
 }
-
-#formato1 {
-    /*Cambiamos el  tamaño del texto y lo h2onemos negrita*/
-    font-size: 30pt;
-    font-weight: bold;
+#formato1{
+    font-size:30pt;
+    font-weight:bold;
 }
-
 strong {
-    color: goldenrod;
+    color:goldenrod;
 }
-
 strong span {
     /*text-decoration: underline  overline;*/
     border-bottom: 1px goldenrod solid;
-    border-top: 1px goldenrod solid;
+    border-top: 1px goldenrod solid; 
 }
-
-/*  Hace subrayado en este caso doble */
 
 .claves {
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
-
-/* Espacia las letras */

@@ -45,8 +45,7 @@ p span {
 
 /* Todos los elementos con id "noticia-principal" o con id "noticia-secundaria" */
 
-#noticia-principal,
-#noticia-secundaria {
+#noticia-principal, #noticia-secundaria {
     background: pink;
     border: 1px solid black;
     padding: 2em;
