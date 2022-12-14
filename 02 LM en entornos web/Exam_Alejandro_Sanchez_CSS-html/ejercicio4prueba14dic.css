@@ -1,0 +1,41 @@
+main{
+  background-color: aquamarine;
+  width: 700px;
+  height: 300px;
+} /*En la etiqueta <main> le declaramos el fondo del color deseado y su tamaño */
+
+label {
+  font-weight: 700; /* En la etiqueta <label> la ponemos negrita*/
+}
+
+fieldset legend{
+  color: gray; /* El titulo en este caso con etiqueta <legend> lo ponemos de color gris y espaciamos las letras unas de otra*/
+  letter-spacing: 5px; 
+}
+
+form#form-email {
+  margin-top: 20px; /* Al segundo formulario le doy un margen arriba para separarlo del primer formulario, a este le pongo un id para saber cual es y seleccionarlo correctamente afectándole esta propiedad a el solo*/
+}
+p.en-linea{
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+} /*Las etiquetas <p> con la clase "en-linea" le digo que me las muestre en linea con un tamaño de 15px y en negrita*/
+
+form {
+  width: 600px; 
+  margin: 0 auto;
+}  /* A los formularios les declaro su ancho, y lo centro utilizando la propiedad margin 0 auto*/
+
+input{
+  border: 1px solid gray;
+}  /*Le damos el borde deseado al area de cada input*/
+
+form span {
+  font-size: 20px;
+  color: red;
+  font-weight: bolder;
+  position: relative;
+  top: -5px;
+}  /* Las etiquetas span hijas de un form, que en nuestro caso serian los asteriscos de requerido, los ponemos de color rojo, le damos el tamaño, la declaramos negrita y le damos posición relativa, también lo bajamos de su posición*/
+

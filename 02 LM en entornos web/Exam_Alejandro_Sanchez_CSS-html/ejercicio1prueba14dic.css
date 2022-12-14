@@ -1,0 +1,23 @@
+/* Para est ejercicio como todos las etiquetas <li> vienen seguidas de una etiqueta <ul> nos 
+basta con indicar las etiquetas <li> hijas de <ul>*/
+
+ul li:first-child {      
+  color: blue;   
+} /* Indicando la pseudoclase first-child seleccionamos la primera fila en este caso la primera etiqueta <li> y lo ponemos de color azul*/
+
+
+ul li:nth-of-type(2n) {
+  list-style-image: url(imagenes/vistobueno.png);
+  font-size: 15px;
+}   /*En este caso estamos pillando las filas pares con nth-of-type(2n), cosa que se podría hacer con nth-child(even). Le indicamos la imagen de la lista y declaramos un tamaño de letra diferente*/
+
+
+ul li:nth-child(2){
+  margin-left: 20px;
+}    /*Seleccionamos la fila que queremos en este caso la segunda y y ponemos un margin left para separarlo del borde de las demás filas*/
+
+
+ul li:last-child {
+  color: red;
+  font-size: 25px;
+}  /*En este caso seleccionamos la ultima fila para ponerla de color rojo y ponerle un tamaño de fuente mas grande*/

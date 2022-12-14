@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 4</title>
+  <link rel="stylesheet" href="ejercicio4prueba14dic.css">  <!-- Le declaro la hoja de estilos-->
+</head>
+
+<body>
+  <main>   <!-- He decidido meter los dos formularios en un main para ser mas semántico y trabajar mejor con el fondo-->
+    <ol>
+      <li>  <!-- Los meto en una lista ordenada como parece estarlo en el ejemplo del pdf-->
+        <form action="" method="post" id="form-datos">  <!-- Abrimos el formulario con la etiqueta form-->
+          <fieldset>
+            <legend>Información personal</legend>  <!-- Declaramos el titulo del formulario-->
+            <div>
+              <label for="nombre">Nombre <span>*</span></label>
+              <input type="text" id="nombre" name="nombre" required placeholder="Longitud máxima 25 caracteres" pattern=".{0,25}">
+              <label for="apellidos">Apellidos <span>*</span></label>
+              <input type="text" id="apellidos" name="apellidos" required placeholder="Longitud máxima 50 caracteres" pattern=".{0,50}">
+  
+            </div>
+            <div>
+              <label for="genero">Género <span>*</span></label>   <!-- label para ponerle un titulo a genero y que el usuario lo identifique-->
+              <select id="genero" name="genero" required>
+                <option value="hombre">Hombre</option>  <!-- Declaramos las opciones-->
+                <option value="mujer">Mujer</option>
+              </select>
+            </div>
+            <div>
+              <label for="fecha_nac">Fecha de nacimiento <span>*</span></label>  
+              <input type="date" id="fecha_nac" name="fecha_nac" required>   <!-- Con input date, automáticamente se pone un campo de tipo fecha y nos despliega un calendario para seleccionar las fechas-->
+            </div>
+            <div>
+  
+              <p class="en-linea"> Vivo en: <span>*</span>
+                <input type="checkbox" id="Sev" value="Sev" name="Sev" required>
+                <label for="Sev">Sevilla</label>
+                <input type="checkbox" id="Cad" value="Cad" name="Cad" required>
+                <label for="Cad">Cadiz</label>
+                <input type="checkbox" id="Bad" value="Bad" name="Bad" required>
+                <label for="Bad">Badajoz</label>
+              </p>
+            </div>
+          </fieldset>
+        </form>
+      </li>
+
+
+      <li> <!-- Los meto en una lista ordenada como parece estarlo en el ejemplo del pdf-->
+        <form action="" method="post" id="form-email"> <!-- Abrimos el formulario con la etiqueta form-->
+          <fieldset>
+            <legend>Correo electrónico<span>*</span> y envío</legend> <!-- Declaramos el titulo del formulario-->
+            <div>
+              <input type="text" name="usuario" id="usuario" required placeholder="Nombre de usuario" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*"> <!-- Para el nombre de usuario aceptamos letras minúsculas mayúsculas y números-->
+              <p class="en-linea">@</p>
+              <input type="text" name="dominio" id="dominio" required placeholder="Dominio" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*"> <!-- Aceptamos letras minúsculas y puntos-->
+              <p class="en-linea">.</p>
+              <select id="sufijo" name="sufijo" required> <!-- Gracias a selected ponemos hacer un desplegable para seleccionar valores-->
+                <option value="ad">ad</option>
+                <option value="com">com</option>
+                <option value="es">es</option>
+              </select>
+              <input type="submit" value="Enviar" >
+            </div>
+          </fieldset>
+        </form>
+      </li>
+    </ol>
+  </main>
+
+</body>
+
+</html>

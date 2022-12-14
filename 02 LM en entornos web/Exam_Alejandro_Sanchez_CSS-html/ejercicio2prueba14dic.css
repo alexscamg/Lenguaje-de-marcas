@@ -1,0 +1,17 @@
+main {
+  background: url("imagenes/02ribete.png") top left no-repeat,
+  url("imagenes/03lazorojo.png") bottom right no-repeat, aqua;
+  width: 600px;
+  height: 350px;
+}  /*Viendo que ni la etiqueta <footer>, osea el pie de pagina, ni la cabecera de la pagina con la etiqueta <header>, se quedan fuera del fondo, he seleccionado la etiqueta <main> para poner el fondo, en el cual he puesto la propiedad background que se que me permite colocar las imágenes de fondo con sus respectivas posiciones y el color del fondo, he declarado el tamaño en pixeles*/
+
+
+div.ejercicio2 p {
+  font-weight: 900;
+  padding-left: 140px;
+  font-size: 20px;
+  text-transform: capitalize;
+}   /* Decimos que en la etiqueta <p> dentro de la etiqueta <div> que tiene la clase "ejercicio2", ponemos la letra en negrita, le damos un espaciado de 140 pixeles para que se muestre bien con la foto, le declaramos el tamaño de la fuente y con text-transform y capitalize automáticamente nos pone la primera letra en mayúsculas*/
+
+
+
